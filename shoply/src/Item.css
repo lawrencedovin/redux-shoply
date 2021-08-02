@@ -1,0 +1,15 @@
+.Item {
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.Item__img {
+    width: 100%;
+}
+
+.Item__name {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
