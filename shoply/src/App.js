@@ -1,14 +1,17 @@
-import './App.css';
-import Item from './Item';
-import Idk from './Idk';
-import ItemList from './ItemList';
-// import Trial from './Trial';
+import React from "react";
+import "./App.css";
+import Navbar from "./Navbar";
+import Routes from "./Routes";
 
 function App() {
   return (
-    <div className="App">
-      <ItemList />
-    </div>
+    <main>
+      <Navbar />
+      <div className="container">
+        <h1 className="mt-3">Welcome to the shopping cart!</h1>
+        <Routes />
+      </div>
+    </main>
   );
 }
 
