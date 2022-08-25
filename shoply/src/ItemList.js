@@ -2,12 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Item from "./Item";
 
 const ItemList = () => {
-    // const data = useSelector(state => state.data);
     const items = useSelector(state => state.items);
-    // const dispatch = useDispatch();
-    // const addData = () => dispatch({type: 'NANI'})
-    // const 
-
     return (
         <>
             <h1>Trial</h1>
