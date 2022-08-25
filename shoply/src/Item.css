@@ -14,6 +14,16 @@
     font-size: 1.25rem;
 }
 
+.shopping-cart {
+    padding-right: 15px;
+}
+
 .card-body {
     text-align: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
